@@ -13,13 +13,38 @@
 		<p>This is a project by Osvaldo Uribe, while trying to learn art.</p>
 		<p>For context; the idea is to visually contextualize history and art in different locations, specially in Europe and South America. And if I'm capable to make this scalable by myself, then i'll be adding more context.</p>
 	</header>
-	<nav>
-		<ul>
-			<li><a href="#">1800</a></li>
-			<li><a href="#">1900</a></li>
-		</ul>	
+	<nav id="navbar-example2" class="navbar bg-body-tertiary px-3 mb-3">
+		<a class="navbar-brand" href="#">Time Line</a>
+		<ul class="nav nav-pills">
+    		<li class="nav-item"><a class="nav-link" href="#scrollspyHeading1">1800</a></li>
+    		<li class="nav-item"><a class="nav-link" href="#scrollspyHeading2">1900</a></li>
+    		<li class="nav-item dropdown">
+    			<a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Dropdown</a>
+      			<ul class="dropdown-menu">
+        			<li><a class="dropdown-item" href="#scrollspyHeading3">1700</a></li>
+        			<li><a class="dropdown-item" href="#scrollspyHeading4">1800</a></li>
+        			<li><hr class="dropdown-divider"></li>
+        			<li><a class="dropdown-item" href="#scrollspyHeading5">1900</a></li>
+      			</ul>
+    		</li>
+  		</ul>
 	</nav>
 	
+	<div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 rounded-2" tabindex="0">
+  	
+  		<h4 id="scrollspyHeading1">1500</h4>
+  		<p>This is some placeholder content for the scrollspy page. Note that as you scroll down the page, the appropriate navigation link is highlighted. It's repeated throughout the component example. We keep adding some more example copy here to emphasize the scrolling and highlighting.
+  		<p>Keep in mind that the JavaScript plugin tries to pick the right element among all that may be visible. Multiple visible scrollspy targets at the same time may cause some issues.</p>
+  		<h4 id="scrollspyHeading2">1600</h4>
+  		<p>...</p>
+  		<h4 id="scrollspyHeading3">1700</h4>
+  		<p>...</p>
+  		<h4 id="scrollspyHeading4">1800</h4>
+  		<p>...</p>
+  		<h4 id="scrollspyHeading5">1900</h4>
+  		<p>...</p>
+  		
+	</div>
 	
 	<footer>
 		</hr>
