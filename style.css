@@ -24,59 +24,9 @@ body{
 
 .clear{clear: both;}
 
-#inicio{
-	padding: 45px 0;
-}
 #footer {
 	padding-bottom: 55px;
 }
-#products{
-	padding: 0;
-}
-.product{
-	background-color: #fff;
-	width: 306px;
-	float: left;
-	margin: 0 15px 45px;
-}
-
-#products hr {
-	margin-bottom: 45px;
-}
-
-div.col1, div.col2, div.col3, div.col4, div.col5, div.col6, div.col7, div.col8, div.col9, div.col10, div.col11, div.col12{
-	padding: 0 15px;
-	float: left;
-}
-
-div.offset1, .offset1{padding: 0 15px 0 97px;}
-div.offset2, .offset2{padding: 0 15px 0 180px;}
-div.offset3, .offset3{padding: 0 15px 0 264px;}
-div.offset4, .offset4{padding: 0 15px 0 349px;}
-div.offset5, .offset5{padding: 0 15px 0 432px;}
-div.offset6, .offset6{padding: 0 15px 0 516px;}
-div.offset7, .offset7{padding: 0 15px 0 600px;}
-div.offset8, .offset8{padding: 0 15px 0 685px;}
-div.offset9, .offset9{padding: 0 15px 0 769px;}
-div.offset10, .offset10{padding: 0 15px 0 853px;}
-div.offset11, .offset11{padding: 0 15px 0 936px;}
-
-.col1{width: 53px;}
-.col2{width: 138px;}
-.col3{width: 222px;}
-.col4{width: 306px;}
-.col5{width: 390px;}
-.col6{width: 474px;}
-.col7{width: 558px;}
-.col8{width: 642px;}
-.col9{width: 726px;}
-.col10{width: 810px;}
-.col11{width: 894px;}
-.col12{width: 978px;}
-
-/* @end */
-
-/* @group typeface */
 
 hr{
 	border: none;
@@ -84,14 +34,6 @@ hr{
 	margin: 0 15px ;
 	clear: both;
 }
-
-.aligne-right{
-	text-align: right;
-}
-.product h2, .product p{
-	padding: 0 15px;
-}
-
 h2{
 	font-size: 1.4em;
 	font-weight: 400;
@@ -100,16 +42,11 @@ h2{
 	color: #000;
 	margin: 15px 0;
 }
-
 p{
 	font-weight: 400;
 	font-size: 1.2em;
 	color: #575757;
 	margin: 15px 0;
-}
-/*custom typeface*/
-#inicio h2{
-	margin: 140px 0 45px;
 }
 a{
 	color: #ce4c28;
@@ -117,80 +54,4 @@ a{
 }
 a:hover{
 	color: #751a0e;
-}
-span {
-	color: #ce4c28;
-}
-
-.product a{
-	color: #575757;
-}
-
-/* @end */
-
-/* @group header */
-
-#head{
-	padding: 30px 0;
-}
-#head h1{
-	text-align: center;
-	margin: 0;
-}
-
-
-/* @end */
-
-/* @group Menu */
-
-#menu{
-	color: #fff;
-	height: 51px;
-}
-#menu ul{
-	margin: 0;
-	padding: 0;
-}
-
-#menu ul.col6 {
-	float: left;
-}
-
-#menu ul.col3.offset3 {
-	float: right;
-	width: 105px;
-}
-
-#menu ul li{
-	font-size: 1.4em;
-	float: left;
-	list-style: none;
-	margin:14px 15px;
-}
-
-/* @end */
-
-/* @group slide */
-
-
-
-
-/* @end */
-
-#pager a {
-	margin: 0 7px;
-	color: #ce8e82;
-}
-#pager a.activeSlide {
-	color: #d94512;
-}
-
-#slideShim {
-	margin: 0 15px;
-}
-
-#pager {
-	margin: 0 15px;
-	padding: 15px;
-	background-color: #fff;
 }
